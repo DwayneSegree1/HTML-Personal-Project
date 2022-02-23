@@ -1,0 +1,158 @@
+@charset "utf-8";
+/*
+Name/Author: Dwayne Segree
+Instructor: Professor Uzma Amir
+Course: Intro to Web Design HTML&CSS
+Date: November 12,2019
+File name: Home Style
+*/
+
+html {
+      font-family: Coolvetica, Arial, Helvetica, sans-serif;
+      background-color: white;
+      text-color: black;
+}
+        body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 100px;
+
+}
+
+/*Navigation Bar*/
+
+.nav{
+    width: 100%;
+    height: 49px;
+    background-color: #262626;
+    top: 0;
+    position: fixed
+   
+
+}
+
+
+.nav a{
+     
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 26px;
+    font-size: 17px;
+    
+}
+
+
+.nav a:hover{
+    background-color: dodgerblue;
+}
+
+
+.nav .search{
+    float: right;
+}
+
+
+.nav input[type=text]{
+    padding: 6px;
+    margin-top: 8px;
+    border:none;
+    font-size: 17px;
+}
+
+
+.nav .search button{
+    float: right;
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    margin-right: 16px;
+    border:none;
+    background-color: dodgerblue;
+    cursor: pointer;
+    
+
+}
+
+
+.nav .search button:hover{
+    background-color: dodgerblue;
+    color: #fff;
+
+}
+
+/*Page Footer*/
+
+footer {
+    clear: both;
+    font-family: Coolvetica, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    width:100%;
+    margin-top: 5px;
+    font-size: 1.5em;
+    height: 60px;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+     min-height: 20px;
+  
+}
+
+
+
+.social-icons {
+  text-align: center;
+  }  
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  }
+.social-icons li a {
+  border-bottom: none;
+  }
+.social-icons li img {
+  width:20px;
+  height:20px;
+  padding: 0;
+  margin-right: 20px;
+}
+
+/*Content Editing*/
+
+#page-head{
+  text-align: center;
+   padding: 10px;
+   font-size: 40px;
+   margin-top: 70px;
+}
+
+
+
+#table1 {
+
+ width: 40%;
+   height:10%;
+   margin-left: 50px;
+   margin-top:  20px;
+   padding: 10px;
+
+
+}
+
+th {
+
+font-size:30px;
+padding:20px;
+}
+
+#slideshow{
+
+float:right;
+margin-right: 60px;
+margin-top:  50px;
+}
+
+

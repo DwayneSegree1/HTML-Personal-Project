@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*
+Name/Author: Dwayne Segree
+Instructor: Professor Uzma Amir
+Course: Intro to Web Design HTML&CSS
+Date: November 12,2019
+File name: Services Style
+*/
+
+#slideshow > div {
+  position: absolute;
+  top: 245px;
+  left: 950px;
+  right: 20px;
+  bottom: 40px;
+  float: center;
+  background: linear-gradient(to right, white, transparent 90%);
+}
+
+
+<!-- TABLE -->
+table {
+  float:right;
+   width: 40%;
+   height:10%;
+   margin-left: 300px;
+   margin-top:  20px;
+   padding: 10px;
+   
+}
+
+
+td,
+th {
+    padding: 10px;
+}
+
+th{
+ 
+background-color:black;
+}
+
+
+#head1 {
+ color: white; 
+}
+
+#call{
+margin-left: 70px;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

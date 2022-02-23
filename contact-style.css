@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*
+Name/Author: Dwayne Segree
+Instructor: Professor Uzma Amir
+Course: Intro to Web Design HTML&CSS
+Date: November 12,2019
+File name: contact-style
+*/
+
+
+#contacts {
+float: right;
+margin-top: 150px;
+margin-right: 200px;
+font-size: 30px;
+
+}
+
+#locate{
+font-size: 30px;
+margin-left: 240px;
+}
+
+#copy {
+
+float: right;
+margin-top: 150px;
+margin-right: 200px;
+font-size: 5px;
+}

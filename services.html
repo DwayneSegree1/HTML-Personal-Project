@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Name/Author: Dwayne Segree
+Instructor: Professor Uzma Amir
+Course: Intro to Web Design HTML&CSS
+Date: November 12,2019
+File name: Services 
+--!>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Segree's Auto Services</title>
+<link rel="icon" type="image/jpg" href="images/logo.jpg" />
+<link href="home-style.css" rel="stylesheet"/>
+<link href="services-style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+
+<div class="nav">
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="sales.html">Sales</a>
+        <a href="contact.html">Contact</a>
+        <a href="Resume/index.html">About Owner</a>
+        <div class="search">
+            <form>
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </form>
+        </div>
+    </div>
+</header>
+<div class="heading">
+<h1 id="page-head">SERVICES</h1> 
+</div>
+
+<!--  Image SlideShow -->
+<div id="slideshow">	
+  <div>
+      <img src="images/2.png">
+  </div>
+  <div>
+      <img src="images/3.jpg">
+  </div>
+<div>
+     <img src="images/4.png">
+  </div>
+<div>
+     <img src="images/5.jpg">
+  </div>
+<div>
+     <img src="images/6.jpg">
+  </div>
+<div>
+     <img src="images/7.png">
+  </div>
+<div>
+     <img src="images/8.jpg">
+  </div>
+<div>
+     <img src="images/9.jpg">
+  </div>
+</div>
+
+<!-- TABLE      -->
+    <div>
+<br>
+<table id="table1">
+<tr>
+<th colspan="2" id="head1">Services Provided</th>
+</tr>
+   <td height="10">
+  <ul>  
+<li>Computer Diagnostics</li>
+<li>Air Conditioning Service & Repair</li>
+<li>Electrical System Diagnosis & Repair</li>
+<li>Brake Repair</li>
+<li>Suspension & Steering Repair</li>
+<li>Shocks & Struts</li>
+<li>Cooling System Service & Repair</li>
+<li>Exhaust Systems & Mufflers</li>
+<li>Engine Repair</li>
+<li>Engine Replacement</li>
+<li>Engine Performance Check</li>
+<li>Belt & Hose Replacement</li>
+<li>Driveability Diagnostics & Repair</li>
+<li>Fuel Injection Service & Repair</li>
+<li>Fuel System Maintenance & Repair</li>
+<li>Ignition System Maintenance & Repair</li>
+ </ul> 
+</td>
+<td>
+ <ul> 
+<li>Factory Scheduled Maintenance 30K, 60K, 90K</li>
+<li>Oil Changes</li>
+<li>Tune Ups</li>
+<li>Filter Replacements</li>
+<li>Safety & Emissions Inspections</li>
+<li>Windshield Wiper Blades</li>
+<li>Fluid Services</li>
+<li>Trip Inspections</li>
+<li>Maintenance Inspections</li>
+<li>Check Engine Light Diagnostics</li>
+<li>Custom Exhaust</li>
+<li>Pre-Purchase Inspections</li>
+<li>Brake & Lamp Inspections</li>
+<li>Fleet Services</li>
+<li>Hybrid Services</li>
+<li>Chassis & Suspension</li>
+<li>Power Steering Repair</li>
+<li>Body & Trim Repairs </li>
+<li>Power Accessory Repair</li>
+<li>New & Rebuilt Transmissions</li>
+<li>Driveline Maintenance & Repair</li>
+<li>Axle Replacement</li>
+<li>Differential Service & Repair</li>
+<li>Clutch Repair & Replacement</li>
+ </ul> 
+</td>
+</table>
+    </div>
+<div><p id="call"><b>Open from MON - FRI From 9:00 Am to 10:00 PM Close 
+on all public holidays</b><br><b> &nbsp &nbsp &nbsp  &nbspCall us to schedule an appointment. 
+We guarantee our work!!!</b></p></div>
+
+<!-- Script for SlideShow -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript">
+        // init slider
+        $("#slideshow > div:gt(0)").hide();
+        setInterval(function() {
+            $('#slideshow > div:first')
+                .fadeOut(500) // fade out speed
+                .next()
+                .fadeIn(1000) // fade in speed
+                .end()
+                .appendTo('#slideshow');
+        }, 3000); // speed of slide's change
+    </script>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+
+<footer>
+<ul class="social-icons">
+     &copy 2019. All rights reserved.  &nbsp;
+    <li>Phone: 1876-568-6280 &nbsp&nbsp<a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"  alt="Social image" /></a></li>
+    <li><a href="http://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Social image"  /></a></li>
+    <li><a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png"  alt="Social image" /></a></li>
+     <li><a href="http://www.reddit.com" target="_blank"><img src="images/reddit.png" alt="Social image" /></a></li>
+</ul>
+</footer>
+
+</body>
+</html>
+

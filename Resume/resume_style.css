@@ -1,0 +1,68 @@
+﻿@charset "utf-8";
+/*
+Name/Author: Dwayne Segree
+Instructor: Professor Uzma Amir
+Course: Intro to Web Design HTML&CSS
+Date: October 9,2019
+File name: Resume style
+*/
+
+img {
+     border-radius: 50%;
+     height: auto;
+     width: 350px;
+}
+
+html{
+
+background-color: rgb(0, 0, 0);
+
+}
+
+body{
+color: rgb(255, 0, 0) ;
+background-color: black;
+font-family: Verdana, Geneva, sans-serif;
+
+}
+
+ul{
+   list-style: none;
+}
+
+#nav1 {
+      margin: 10px;
+      width: 900x;
+      font-family: sans-serif;
+}
+
+#nav1 li {
+        display:block;
+        width:120px;
+        float:left;
+        margin-left:2px;
+        border:1px solid #000;
+
+}
+
+#nav1 a {
+      display:block;
+      padding:3px;
+      text-decoration:none;
+      background-color:#40E0D0;
+      color:#009;
+}
+
+#nav1 a:hover {
+          background-color:#FF0000;
+          color:black;
+}
+
+
+ h1 {
+color: white;
+}
+
+
+
+
