@@ -1,0 +1,13 @@
+# Build/packaging artifacts
+*.zip
+
+# Logs
+*.log
+debug.log
+
+# Image optimization backups (originals kept locally, not in the repo)
+**/_originals_backup/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

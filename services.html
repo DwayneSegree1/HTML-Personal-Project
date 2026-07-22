@@ -6,9 +6,8 @@ Name/Author: Dwayne Segree
 Instructor: Professor Uzma Amir
 Course: Intro to Web Design HTML&CSS
 Date: November 12,2019
-File name: Services 
---!>
-<head>
+File name: Services
+-->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Segree's Auto Services</title>
@@ -38,30 +37,30 @@ File name: Services
 </div>
 
 <!--  Image SlideShow -->
-<div id="slideshow">	
+<div id="slideshow">
   <div>
-      <img src="images/2.png">
+      <img src="images/2.jpg" alt="Auto service">
   </div>
   <div>
-      <img src="images/3.jpg">
+      <img src="images/3.jpg" alt="Auto service">
   </div>
 <div>
-     <img src="images/4.png">
+     <img src="images/4.jpg" alt="Auto service">
   </div>
 <div>
-     <img src="images/5.jpg">
+     <img src="images/5.jpg" alt="Auto service">
   </div>
 <div>
-     <img src="images/6.jpg">
+     <img src="images/6.jpg" alt="Auto service">
   </div>
 <div>
-     <img src="images/7.png">
+     <img src="images/7.jpg" alt="Auto service">
   </div>
 <div>
-     <img src="images/8.jpg">
+     <img src="images/8.jpg" alt="Auto service">
   </div>
 <div>
-     <img src="images/9.jpg">
+     <img src="images/9.jpg" alt="Auto service">
   </div>
 </div>
 
@@ -72,6 +71,7 @@ File name: Services
 <tr>
 <th colspan="2" id="head1">Services Provided</th>
 </tr>
+<tr>
    <td height="10">
   <ul>  
 <li>Computer Diagnostics</li>
@@ -118,34 +118,36 @@ File name: Services
 <li>Axle Replacement</li>
 <li>Differential Service & Repair</li>
 <li>Clutch Repair & Replacement</li>
- </ul> 
+ </ul>
 </td>
+</tr>
 </table>
     </div>
 <div><p id="call"><b>Open from MON - FRI From 9:00 Am to 10:00 PM Close 
-on all public holidays</b><br><b> &nbsp &nbsp &nbsp  &nbspCall us to schedule an appointment. 
+on all public holidays</b><br><b> &nbsp; &nbsp; &nbsp;  &nbsp;Call us to schedule an appointment. 
 We guarantee our work!!!</b></p></div>
 
 <!-- Script for SlideShow -->
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script type="text/javascript">
-        // init slider
-        $("#slideshow > div:gt(0)").hide();
-        setInterval(function() {
-            $('#slideshow > div:first')
-                .fadeOut(500) // fade out speed
-                .next()
-                .fadeIn(1000) // fade in speed
-                .end()
-                .appendTo('#slideshow');
-        }, 3000); // speed of slide's change
+        // init slider — run after the DOM is ready
+        $(function() {
+            $("#slideshow > div:gt(0)").hide();
+            setInterval(function() {
+                $('#slideshow > div:first')
+                    .fadeOut(500) // fade out speed
+                    .next()
+                    .fadeIn(1000) // fade in speed
+                    .end()
+                    .appendTo('#slideshow');
+            }, 3000); // speed of slide's change
+        });
     </script>
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
 
 <footer>
 <ul class="social-icons">
-     &copy 2019. All rights reserved.  &nbsp;
-    <li>Phone: 1876-568-6280 &nbsp&nbsp<a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"  alt="Social image" /></a></li>
+     &copy; 2019. All rights reserved.  &nbsp;
+    <li>Phone: 1876-568-6280 &nbsp;&nbsp;<a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"  alt="Social image" /></a></li>
     <li><a href="http://www.instagram.com" target="_blank"><img src="images/instagram.png" alt="Social image"  /></a></li>
     <li><a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png"  alt="Social image" /></a></li>
      <li><a href="http://www.reddit.com" target="_blank"><img src="images/reddit.png" alt="Social image" /></a></li>
